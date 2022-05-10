@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Task1</title>
+        <link rel="stylesheet" type="text/css" href="css/styl.css">
+        
+    </head>
+
+    <style>
+        input[type=text] {
+  background-color: #3CBC8D;
+  color: white;
+} 
+input[type=password] {
+  background-color: #96e9bf;
+  color: white;
+}
+input[type=text]:focus {
+    text-decoration: #555;
+  background-color: lightblue;
+}
+input[type=password]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+    </style>
+
+    <center>
+        <body>
+            <h1>HTML form</h1>
+            <br>
+            <hr>
+            
+            <form>
+                <Table>
+                    <tr>
+                        <td>
+                            <label for="first_name">First name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="first_name" maxlength="50" size="20">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="last_name">Last name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="last_name" maxlength="50" size="20">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="enrollment">Enrollment no.</label>
+                        </td>
+                        <td>
+                            <input type="text" name="enrollment" maxlength="50" size="20">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="userid">UserID</label>
+                        </td>
+                        <td>
+                            <input type="text" name="userid">
+                        </td>
+                    </tr>
+                    <tr><td>
+                        <label for="passwrd">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="psswrd">
+                    </td>
+                </tr>
+
+                <tr><td>
+                    <label for="gend">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gend"> Male
+                </td>
+                <td>
+                    <input type="radio" name="gend"> Female &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                </td>
+            </tr>
+
+            <tr><td>
+                <label for="qual">Qualification</label>
+            </td>
+            <td>
+                <input type="checkbox" name="qual1"> X
+            </td>
+            <td>
+                <input type="checkbox" name="qual2"> XII
+            </td>
+            <td>
+                <input type="checkbox" name="qual3"> Graduate &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            </td>
+            <td>
+                <input type="checkbox" name="qual4"> PG
+            </td>
+        </tr>
+
+
+
+
+
+                </Table>
+            </form>
+            <hr>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </body>
+    </center>
+
+</html>
